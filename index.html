@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <h1>Nossos <span>Serviços</span></h1>
+
+    <main>
+        <div id="conteudo-01">
+            <h3>Desenvolvimento Front-End</h3>
+
+            <div class="texto">
+                <p>
+                    Um Desenvolvedor Front-End é responsável por criar a interface visual de sites e aplicativos, tornando-os atraentes e funcionais para os usuários finais. Eles trabalham com tecnologias essenciais como HTML para estruturar o conteúdo, CSS para estilizar e dar formato, e JavaScript para adicionar interatividade. Além disso, utilizam frameworks e bibliotecas populares como React, Angular e Vue.js para desenvolver interfaces complexas e responsivas de maneira mais eficiente.
+                </p>
+                <p>
+                    A responsabilidade principal do desenvolvedor front-end é garantir que os usuários possam interagir com o site ou aplicativo de forma intuitiva e sem problemas. Isso inclui garantir que o design seja responsivo, ou seja, que funcione bem em diferentes dispositivos e tamanhos de tela, como computadores, tablets e smartphones. Eles também trabalham em estreita colaboração com designers gráficos para transformar protótipos e wireframes em elementos funcionais da web.
+                </p>
+                <p>
+                    Além da criação visual, os desenvolvedores front-end também se preocupam com a otimização de desempenho, garantindo que os sites carreguem rapidamente e funcionem de maneira fluida. Eles podem utilizar ferramentas de automação e pré-processadores de CSS como SASS ou LESS para melhorar o fluxo de trabalho e a manutenção do código. A acessibilidade web também é uma preocupação importante, assegurando que o conteúdo seja acessível a todos os usuários, incluindo aqueles com deficiências.
+                </p>
+            </div>
+
+            <button onclick="abrirModal('conteudo-01')">Leia mais</button>
+        </div>
+
+        <div id="conteudo-02">
+            <h3>Desenvolvimento Back-End</h3>
+
+            <div class="texto">
+                <p>
+                    Um Desenvolvedor Back-End é o responsável por tudo o que acontece nos bastidores de um site ou aplicativo. Eles desenvolvem a lógica do servidor, gerenciam bancos de dados e asseguram que todas as funcionalidades do lado do servidor operem corretamente. As principais linguagens de programação utilizadas pelos desenvolvedores back-end incluem Java, Python, Ruby, PHP e Node.js, cada uma escolhida conforme a necessidade do projeto. Eles também trabalham com sistemas de gerenciamento de banco de dados como MySQL, PostgreSQL, e MongoDB.
+                </p>
+                <p>
+                    A principal preocupação do desenvolvedor back-end é a integridade e segurança dos dados. Eles implementam e mantêm a lógica do servidor que permite aos usuários interagir com o front-end, garantindo que os dados sejam processados e armazenados corretamente. Isso inclui a criação de APIs (Application Programming Interfaces) que permitem a comunicação entre o front-end e o back-end, bem como entre diferentes serviços e aplicações.
+                </p>
+                <p>
+                    Além disso, os desenvolvedores back-end se focam na otimização de desempenho do servidor, garantindo que o sistema suporte um grande número de usuários simultaneamente sem perda de eficiência. Eles também implementam medidas de segurança para proteger os dados contra acesso não autorizado e outras ameaças. Trabalhando em estreita colaboração com os desenvolvedores front-end, eles garantem que a integração entre o lado do cliente e o servidor funcione de forma harmoniosa.
+                </p>
+            </div>
+
+            <button onclick="abrirModal('conteudo-02')">Leia mais</button>
+        </div>
+
+        <div id="conteudo-03">
+            <h3>Desenvolvimento Mobile</h3>
+
+            <div class="texto">
+                <p>
+                    Um Desenvolvedor Mobile é especializado na criação de aplicativos para dispositivos móveis, como smartphones e tablets. Eles desenvolvem aplicativos nativos utilizando linguagens específicas para cada plataforma, como Swift e Objective-C para iOS, e Java e Kotlin para Android. Além disso, podem usar frameworks multiplataforma como Flutter e React Native para desenvolver aplicativos que funcionem em ambos os sistemas operacionais com um único código-base.
+                </p>
+                <p>
+                    Os desenvolvedores mobile focam em criar uma experiência de usuário excepcional, adaptando o design e a funcionalidade do aplicativo às diferentes características e limitações dos dispositivos móveis. Isso inclui a otimização para diferentes tamanhos de tela, resoluções e capacidades de hardware. Eles também se preocupam em garantir que os aplicativos funcionem de forma fluida e eficiente, minimizando o consumo de bateria e uso de memória.
+                </p>
+                <p>Além do desenvolvimento, os desenvolvedores mobile também realizam testes rigorosos para garantir que os aplicativos sejam estáveis e livres de bugs. Eles utilizam emuladores e dispositivos reais para testar o desempenho e a usabilidade em diferentes condições. Após o lançamento, continuam a monitorar e atualizar os aplicativos, corrigindo problemas e adicionando novas funcionalidades conforme necessário. O objetivo final é criar aplicativos que não apenas atendam às necessidades dos usuários, mas também proporcionem uma experiência agradável e intuitiva.
+                </p>
+            </div>
+
+            <button onclick="abrirModal('conteudo-03')">Leia mais</button>
+        </div>
+    </main>
+
+    <div class="modal">
+        <div class="modal-base">
+            <div class="modal-conteudo">
+                <div>
+                    <!-- CONTEÚDO ADICIONADO POR JAVASCRIPT -->
+                </div>
+
+                <button class="btn-fechar">Fechar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./JS/index.js"></script>
+
+</html>
